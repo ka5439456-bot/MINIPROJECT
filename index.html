@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-image: url("Full-Stack\ Development_\ A\ Complete\ Guide\ for\ Beginners.jpg");
+      background-size: cover;
+
+    }
+
+    .cd {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 70px;
+      padding: 70px;
+    }
+
+    .card {
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      outline: none;
+    }
+
+    .main {
+      height: 400px;
+      width: 800px;
+      margin-left: 300px;
+      margin-top: 100px;
+    }
+
+    .carousel,
+    .carousel-inner,
+    .carousel-item {
+      height: 100%;
+    }
+
+    img {
+      height: 100%;
+    }
+
+    .loc {
+      margin-left: 300px;
+      margin-top: 30px;
+    }
+
+    h1 {
+      color: white;
+      border: 2px solid blue;
+      border-radius: 10px;
+      width: 200px;
+      height: 50px;
+      margin-left: 20px;
+      padding: 0;
+    }
+
+    .ab {
+      color: white;
+      border: 1px blue;
+      width: 800px;
+      margin-left: 280px;
+      border-radius: 10px;
+      outline: none;
+    }
+  </style>
+
+<body>
+
+  <div class="scroll">
+
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3 fixed-top">
+      <a class="navbar-brand" href="#">glide hub</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="card.html">home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">feedback</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="location.html">location</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="application.html">contact</a>
+        </li>
+
+        </li>
+      </ul>
+    </nav><br><br>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+      <h1 id="scrollspyHeading1"><i>services</i></h1>
+      <div class="cd">
+        <div class="card mx-3 my-3" style="width: 18rem;">
+          <img src="download (5).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">koshys</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+              content.</p>
+            <a href="#" class="btn btn-primary">view</a>
+          </div>
+        </div>
+
+        <div class="card mx-3 my-3" style="width: 18rem;">
+          <img src="download (6).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+              content.</p>
+            <a href="#" class="btn btn-primary">view</a>
+          </div>
+        </div>
+
+        <div class="card mx-3 my-3" style="width: 18rem;">
+          <img src="download (7).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">amity</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+              content.</p>
+            <a href="#" class="btn btn-primary">view</a>
+          </div>
+        </div>
+      </div>
+      <h1 id="scrollspyHeading2"><i>office</i></h1>
+      <div class="main">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Minimalist Office Space with Desk Near Window and Cityscape (1).jpg" class="d-block w-100"
+                alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Virtual Assistant.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <h1 id="scrollspyHeading4"><i>About</i></h1>
+      <p class="ab"><i>GlideHub Student Consultancy is a student-focused guidance service that helps individuals achieve
+          their dream of studying abroad. The company provides expert support in selecting the right course, university,
+          and country based on each student’s goals and academic background.
+
+          GlideHub assists students with the complete admission process, including application guidance, documentation,
+          and visa support. Their mission is to make international education simple, accessible, and stress-free for
+          students.
+
+          With personalized counseling and up-to-date information about global universities, GlideHub ensures students
+          make informed decisions and build a successful future.</i>i</p>
+
+    </div>
+    <h1 id="scrollspyHeading3"><i>location</i></h1>
+    <div class="loc">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62708.83233527155!2d76.61270740409273!3d10.788164376351647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba86dfa087d31ad%3A0xf542d6eb7a870a56!2sPalakkad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1775839963254!5m2!1sen!2sin"
+        width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
